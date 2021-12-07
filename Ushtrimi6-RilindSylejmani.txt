@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text-css" href="Ushtrimi6.css">
+    </head>
+    <body>
+
+        <div id="mbajtsiUebi">
+        <!--script>
+            //preferohet te perdoret for-of per iterim ne Array
+        let vetura = ['Golf', 'Audi', 'Ford', 'BMW'];
+        for (let kerri of vetura) {
+            console.log(kerri);
+        }
+        </script-->
+<script>
+        /*const   personi ={
+            emri:'Agimi',
+            mbiemri:'Gashi',
+            mosha:32
+        };
+        var x=personi.emri;
+        console.log(x);
+        var y = personi["mbiemri"]
+        console.log(y)
+
+        for (let key in personi) {
+            console.log(key + ":" + personi[key]);
+            document.writeln(`${key}: ${personi[key]} <br>`)
+
+        }
+        const studenti = {
+            emri: 'Burim',
+            mbiemri: "Gashi",
+            mosha: 21,
+            nota: {
+                inxhinieriaUebit:9,
+                'Baza e te dhenave':8
+            }
+        
+        };
+        for (let key in  studenti)  {
+            if (key!="nota") {
+                console.log(key + ":" + studenti[key]);
+                document.writeln(`${key}: ${studenti[key]} <br> `)
+            }
+            else {
+                let notat=studenti[key];
+                for (i in notat) {
+                    console.log(i+ ":" + notat[i] );
+                    document.writeln(`${i}: ${notat[i]} <br> `)
+                }
+            }
+        }
+
+        function funksioniIM (parametri1){
+            return parametri1;
+        }
+
+        console.log(funksioniIm("Mirdita juve"));
+
+        const kalkulatori = {
+            n1:'',
+            n2:'',
+            mblidh:function(n1,n2) {
+                return n1+n2;
+            }
+        };
+        document.writeln("shuma eshte " + kalkulatori.mblidh(3,8));
+
+        function kalkulatroi (n1,n2,rez) {
+            this.n1=n1;
+            this.n2=n2;
+            return this.rez=n1-n2;
+        }
+        //therrasum funksionin sipas konstruktorit
+        var x = new kalkulatroi(8,4);
+        document.writeln("zbritja: " + x.rez);*/
+        var mblidhNr = function(a,b) {
+            return a+b;
+        }
+
+        console.log(mblidhNr(3,4));
+        document.writeln(mblidhNr(3,4));
+    </script>
+        </div>
+    </body>
+</html>
